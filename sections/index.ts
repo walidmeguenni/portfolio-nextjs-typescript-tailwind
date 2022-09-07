@@ -1,0 +1,5 @@
+export { default as HeroBanner } from "./HeroBanner"
+export { default as Projects } from "./Projects"
+export { default as Timeline } from "./Timeline"
+export { default as Technologies } from "./Technologies"
+export { default as Acomplishments } from "./Acomplishments"
