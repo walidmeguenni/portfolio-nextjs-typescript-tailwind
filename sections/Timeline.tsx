@@ -9,8 +9,11 @@ const Timeline: React.FC = () => {
       <Divider />
       <Title>About Me</Title>
       <Paragraph>
-        I&rsquo;ve worked with a range a technologies in the web development
-        world. From Back-end To Design
+        I&rsquo;m web developer and problem solver, building full stack web
+        applications using next js, react js, node js, express js, and nest js
+        ..., I have many web applications deployed on the internet, I have
+        experience in building commercial web applications and I focus on a
+        scalable architecture to build solid project.
       </Paragraph>
       <div className="flex flex-row items-start justify-between  mb-[80px] ml-[32px]  gap-5 some-styles mx-10">
         {TimeLineData.map((items, index) => (

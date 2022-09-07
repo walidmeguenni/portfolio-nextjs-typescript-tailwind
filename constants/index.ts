@@ -39,7 +39,7 @@ export const projects = [
   {
     title: "Startup Landing",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+      "Startup Landing Template already have all the necessary sections, just add your touch to make it your own, and voila - you’re ready to announce your presence to the world!",
     image: image1,
     tags: ["Nextjs", "Typescript", "tailwind css"],
     source:
@@ -50,7 +50,7 @@ export const projects = [
   {
     title: "E-Commerce",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      "E-commerce application included modern design and animations, the ability to mange products on the go using a Sanity, and the complete integration with Stripe so that you can cover real payments.",
     image: image2,
     tags: ["Nextjs", "JavaScript", "tailwind css"],
     source: "https://github.com/walidmeguenni/MG_ecommerce",
@@ -60,7 +60,7 @@ export const projects = [
   {
     title: "Bank Landing",
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+      "Bank Landing Template already have all the necessary sections, just add your touch to make it your own, and voila - you’re ready to announce your presence to the world!",
     image: image3,
     tags: ["Nextjs", "Typescript", "tailwind css"],
     source: "https://github.com/walidmeguenni/project-hoobank-next-typescript",
@@ -70,7 +70,7 @@ export const projects = [
   {
     title: "Inventory Landing",
     description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application,This is a code repository for the corresponding video tutorial.",
+      "Inventory Landing Template already have all the necessary sections, just add your touch to make it your own, and voila - you’re ready to announce your presence to the world!",
     image: image4,
     tags: ["Reactjs", "JavaScript", "Material ui"],
     source: "https://github.com/walidmeguenni/landingPage",
@@ -101,15 +101,15 @@ export const TechnologiesData = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  { year: 2018, text: "Started at computer sience university" },
+  { year: 2019, text: "Started learning as web developer" },
+  { year: 2020, text: "Begin a MERN Stack Developer" },
+  { year: 2021, text: "I got a bachelor's degree" },
+  { year: 2022, text: "Worked as a freelancer developer" },
 ];
 export const data = [
   { number: 20, text: "Open Source Projects" },
-  { number: 1000, text: "Students" },
-  { number: 1900, text: "Github Followers" },
-  { number: 5000, text: "Github Stars" },
+  { number: 10, text: "WebSites" },
+  { number: 100, text: "problems solved" },
+  { number: 3, text: "Communication languages" },
 ];

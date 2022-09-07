@@ -1,16 +1,17 @@
 import Link from "next/link";
 import React from "react";
-import { DiCssdeck } from "react-icons/di";
 import { AiOutlineMenu } from "react-icons/ai";
 import { NavbarData, SocialData } from "../constants";
+import Favicon from "../public/favicon.svg";
+import Image from "next/image";
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState<boolean>(false);
   return (
     <div className="flex flex-row justify-between items-center pb-4 pt-8 ">
       <div className="flex flex-row content-center">
         <Link href="#!">
-          <a className="flex items-center text-white ">
-            <DiCssdeck size="4rem" />
+          <a className="flex items-center text-white gap-3">
+            <Image src={Favicon} alt="logo" />
             <h1 className="font-bold text-[18px] leading-normal">PortFolio</h1>
           </a>
         </Link>
