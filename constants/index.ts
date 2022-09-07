@@ -1,10 +1,10 @@
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend } from "react-icons/di";
 
 import image1 from "../public/images/1.png";
 import image2 from "../public/images/2.png";
-import image3 from "../public/images/3.jpg";
-import image4 from "../public/images/4.jpg";
+import image3 from "../public/images/3.png";
+import image4 from "../public/images/4.png";
 export const NavbarData = [
   {
     label: "Projects",
@@ -37,13 +37,14 @@ export const SocialData = [
 
 export const projects = [
   {
-    title: "MERN Memories",
+    title: "Startup Landing",
     description:
       "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
     image: image1,
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["Nextjs", "Typescript", "tailwind css"],
+    source:
+      "https://github.com/walidmeguenni/startup-landing-nextjs-typescript-tailwind",
+    visit: "https://startup-landing-lime.vercel.app/",
     id: 0,
   },
   {
@@ -51,29 +52,29 @@ export const projects = [
     description:
       "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
     image: image2,
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["Nextjs", "JavaScript", "tailwind css"],
+    source: "https://github.com/walidmeguenni/MG_ecommerce",
+    visit: "https://mg-ecommerce.vercel.app/",
     id: 1,
   },
   {
-    title: "WebRTC App",
+    title: "Bank Landing",
     description:
       "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
     image: image3,
-    tags: ["React", "WebRTC"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["Nextjs", "Typescript", "tailwind css"],
+    source: "https://github.com/walidmeguenni/project-hoobank-next-typescript",
+    visit: "https://hoobank-orpin.vercel.app/",
     id: 2,
   },
   {
-    title: "Unichat",
+    title: "Inventory Landing",
     description:
       "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application,This is a code repository for the corresponding video tutorial.",
     image: image4,
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    tags: ["Reactjs", "JavaScript", "Material ui"],
+    source: "https://github.com/walidmeguenni/landingPage",
+    visit: "https://meguenniwalid.live/",
     id: 3,
   },
 ];
