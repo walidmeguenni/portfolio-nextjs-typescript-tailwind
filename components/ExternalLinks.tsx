@@ -6,7 +6,7 @@ interface ExternalLinksProps {
 }
 const ExternalLinks: React.FC<ExternalLinksProps> = (props) => {
   return (
-    <Link href={props.link}>
+    <Link href={props.link} target="_blank">
       <a className="p-1-1.5 text-embroidery text-[1.6rem] bg-madder-brown rounded-[15px] transition duration-[0.5s] hover:bg-rubby-Red">
         {props.content}
       </a>
