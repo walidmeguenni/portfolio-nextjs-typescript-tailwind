@@ -1,4 +1,5 @@
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { SiUpwork } from "react-icons/si";
 import { DiFirebase, DiReact, DiZend } from "react-icons/di";
 
 import image1 from "../public/images/1.png";
@@ -22,15 +23,15 @@ export const NavbarData = [
 
 export const SocialData = [
   {
-    path: "https://google.com",
+    path: "https://github.com/walidmeguenni/",
     Icon: AiFillGithub,
   },
   {
-    path: "https://google.com",
-    Icon: AiFillInstagram,
+    path: "https://www.upwork.com/freelancers/~01fc8a24c9444a633c",
+    Icon: SiUpwork,
   },
   {
-    path: "https://google.com",
+    path: "https://www.linkedin.com/in/walid-meguenni-309bb6205/",
     Icon: AiFillLinkedin,
   },
 ];
