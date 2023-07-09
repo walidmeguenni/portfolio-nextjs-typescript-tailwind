@@ -27,11 +27,11 @@ export const SocialData = [
     Icon: AiFillGithub,
   },
   {
-    path: "https://www.upwork.com/freelancers/~01fc8a24c9444a633c",
+    path: "https://www.upwork.com/freelancers/~01e2290b476b27870f,
     Icon: SiUpwork,
   },
   {
-    path: "https://www.linkedin.com/in/walid-meguenni-309bb6205/",
+    path: "https://www.linkedin.com/in/walid-meguenni",
     Icon: AiFillLinkedin,
   },
 ];
