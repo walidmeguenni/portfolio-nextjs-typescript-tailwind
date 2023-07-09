@@ -75,7 +75,7 @@ export const projects = [
     image: image4,
     tags: ["Reactjs", "JavaScript", "Material ui"],
     source: "https://github.com/walidmeguenni/landingPage",
-    visit: "https://meguenniwalid.live/",
+    visit: "https://landing-page-walid-mg12.vercel.app/",
     id: 3,
   },
 ];
