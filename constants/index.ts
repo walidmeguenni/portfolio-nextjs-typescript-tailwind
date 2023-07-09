@@ -27,7 +27,7 @@ export const SocialData = [
     Icon: AiFillGithub,
   },
   {
-    path: "https://www.upwork.com/freelancers/~01e2290b476b27870f,
+    path: "https://www.upwork.com/freelancers/~01e2290b476b27870f",
     Icon: SiUpwork,
   },
   {
